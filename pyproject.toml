@@ -3,7 +3,7 @@ name = "pytokenizer"
 version = "0.1.0"
 description = ""
 authors = [{ name = "clay-arras", email = "astrollin.neil@gmail.com" },
-           { name = "markus-chu", email = "markuschu06@gmail.com" }]
+           { name = "markus-chu", email = "buspoko@gmail.com" }]
 requires-python = ">=3.11,<3.15"
 readme = "README.md"
 dependencies = [
