@@ -1,0 +1,32 @@
+[project]
+name = "pytokenizer"
+version = "0.1.0"
+description = ""
+authors = [{ name = "clay-arras", email = "astrollin.neil@gmail.com" }]
+requires-python = ">=3.11,<3.15"
+readme = "README.md"
+dependencies = [
+    "pybind11>=3.0.1,<4",
+    "pytest>=9.0.2,<10",
+    "scikit-build-core>=0.11.6",
+]
+
+[dependency-groups]
+dev = [
+    "black",
+    "ruff",
+]
+
+[tool.uv]
+package = false
+
+[build-system]
+requires = ["scikit-build-core>=0.11", "pybind11>=3.0"]
+build-backend = "scikit_build_core.build"
+
+[tool.scikit-build]
+minimum-version = "build-system.requires"
+wheel.packages = ["src/pytokenizer"]
+
+[tool.scikit-build.cmake]
+build-type = "Debug"

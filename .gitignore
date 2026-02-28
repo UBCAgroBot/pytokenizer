@@ -1,0 +1,11 @@
+uv.lock
+**/__pycache__/
+**/build/
+.venv/
+.clangd
+.cache/
+.vscode/
+
+.mypy_cache
+.pytest_cache
+.ruff_cache
