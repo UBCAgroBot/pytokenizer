@@ -6,6 +6,6 @@
 
 int main() {
     pytokenizer::core::Tokenizer tokenizer;
-    tokenizer.foo();
+    std::cout << tokenizer.foo() << std::endl;
     return 0;
 }

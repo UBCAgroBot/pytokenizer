@@ -4,7 +4,7 @@
 namespace pytokenizer {
 namespace core {
 
-void Tokenizer::foo() { std::cout << "foo" << std::endl; }
+std::string Tokenizer::foo() { return "foo"; }
 
 } // namespace core
 } // namespace pytokenizer

@@ -1,11 +1,13 @@
 #pragma once
 
+#include <string>
+
 namespace pytokenizer {
 namespace core {
 
 class Tokenizer {
 public:
-    void foo();
+    std::string foo();
 };
 
 } // namespace core
