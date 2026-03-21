@@ -22,7 +22,6 @@ target_include_directories(pytokenizer_compile_config
 add_subdirectory(csrc/src/core)
 add_subdirectory(csrc/bindings)
 add_subdirectory(test)
-add_subdirectory(benchmark)
 
 add_library(pytokenizer INTERFACE)
 target_link_libraries(pytokenizer INTERFACE pytokenizer_core)
